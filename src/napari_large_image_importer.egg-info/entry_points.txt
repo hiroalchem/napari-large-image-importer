@@ -1,2 +1,0 @@
-[napari.manifest]
-napari-large-image-importer = napari_large_image_importer:napari.yaml
