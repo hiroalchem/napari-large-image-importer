@@ -13,11 +13,11 @@ import dask
 import numpy as np
 import tifffile
 import zarr
-from magicgui.widgets import FileEdit, Select, Label, CheckBox, PushButton
-from qtpy.QtWidgets import QVBoxLayout, QPushButton, QWidget
+from magicgui.widgets import FileEdit, Label, CheckBox, PushButton
+from qtpy.QtWidgets import QVBoxLayout, QWidget
 
 if TYPE_CHECKING:
-    import napari
+    pass
 
 
 class NliiQWidget(QWidget):
